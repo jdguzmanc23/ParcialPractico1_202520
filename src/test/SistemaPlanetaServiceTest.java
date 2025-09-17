@@ -17,7 +17,7 @@ import co.edu.uniandes.dse.ParcialPractico1_202520.repositories.SistemaSolarRepo
 
 @SpringBootTest
 @Transactional
-class SistemaPlanetaServiceIT {
+class SistemaPlanetaServiceTest {
 
     @Autowired
     private SistemaPlanetaService sistemaPlanetaService;
