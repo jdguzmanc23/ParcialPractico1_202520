@@ -10,11 +10,9 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.FetchType;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 @Data
 @Entity
-@EqualsAndHashCode(callSuper = true)
 public class SistemaSolar extends BaseEntity {
 
     private String nombre;
